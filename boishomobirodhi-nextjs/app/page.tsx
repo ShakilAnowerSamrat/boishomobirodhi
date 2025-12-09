@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navigation/Navbar";
 import { Footer } from "@/components/navigation/Footer";
 import { Hero } from "@/components/sections/Hero";
+import { AboutSummary } from "@/components/sections/AboutSummary";
 import { Highlights } from "@/components/sections/Highlights";
 import Link from "next/link";
 import { ArrowRight, BookOpen, Clock, FileText, Globe, GraduationCap, Image as ImageIcon, Scale, Users } from "lucide-react";

@@ -33,12 +33,28 @@ export default function ArchiveHub() {
             border: "hover:border-green-500/50"
         },
         {
-            title: "ছবি ও ভিডিও গ্যালারি",
+            title: "ছবি আর্কাইভ",
             description: "আন্দোলনের দুর্লভ মুহূর্ত ও গ্রাফিতি চিত্র",
             icon: <ImageIcon className="w-8 h-8 text-blue-500" />,
-            href: "/archive/art",
+            href: "/archive/photo",
             gradient: "from-blue-900/20 to-transparent",
             border: "hover:border-blue-500/50"
+        },
+        {
+            title: "ভিডিও আর্কাইভ",
+            description: "ইতিহাসের সাক্ষী হওয়া ভিডিও ফুটেজসমূহ",
+            icon: <ImageIcon className="w-8 h-8 text-orange-500" />,
+            href: "/archive/video",
+            gradient: "from-orange-900/20 to-transparent",
+            border: "hover:border-orange-500/50"
+        },
+        {
+            title: "আহত যোদ্ধা",
+            description: "হাসপাতালে চিকিৎসাধীন হাজারো বীর যোদ্ধা",
+            icon: <Users className="w-8 h-8 text-teal-500" />,
+            href: "/archive/injured",
+            gradient: "from-teal-900/20 to-transparent",
+            border: "hover:border-teal-500/50"
         },
         {
             title: "দাবি ও বিবৃতি",
