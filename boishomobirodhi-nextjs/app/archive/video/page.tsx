@@ -2,60 +2,103 @@
 
 import { Navbar } from "@/components/navigation/Navbar";
 import { Footer } from "@/components/navigation/Footer";
-import { motion } from "framer-motion";
-import { Play } from "lucide-react";
+import Link from "next/link";
+import { ArrowLeft, Play } from "lucide-react";
+import videosData from "@/data/videos.json";
 
 export default function VideoArchivePage() {
-    const videos = [
-        { caption: "President Mohammed Shahabuddin Chuppu announced the resignation of Prime Minister Sheikh Hasina" },
-        { caption: "No More Fear, No More Chains: From Ricksha Puller , Farmers to Factory Workers, the Victory is Ours" },
-        { caption: "Statue of Sheikh Mujib Toppled by Bulldozer After Victory" },
-        { caption: "Public Gains Upper Hand — Police Respond with Gunfire , Bashundhara" },
-        { caption: "No More Fear, No More Chains: From Farmers to Factory Workers, the Victory is Ours" },
-        { caption: "Police Surrenders" },
-        { caption: "Boshundhara Gate" },
-        { caption: "You Can’t Tear Gas a Revolution | We Bleed, We Rise | Chants Louder Than Bullets" }
-    ];
-
     return (
         <div className="min-h-screen bg-gray-900 text-white font-bengali">
             <Navbar />
             <main className="pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+                <Link
+                    href="/archive"
+                    className="inline-flex items-center text-primary-red hover:text-red-400 transition-colors mb-8"
+                >
+                    <ArrowLeft className="w-4 h-4 mr-2" />
+                    আর্কাইভে ফিরে যান
+                </Link>
+
                 <div className="text-center mb-16">
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
                         ভিডিও <span className="text-primary-red">আর্কাইভ</span>
                     </h1>
-                    <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                        ইতিহাসের সাক্ষী হওয়া ভিডিও ফুটেজসমূহ
+                    <p className="text-gray-400 max-w-2xl mx-auto">
+                        ইতিহাসের সাক্ষী ভিডিও সংকলন
                     </p>
+                    {videosData.length > 0 && (
+                        <div className="mt-4 text-primary-green">
+                            মোট ভিডিও: {videosData.length}
+                        </div>
+                    )}
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {videos.map((item, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="bg-gray-800 rounded-xl overflow-hidden group border border-gray-700 hover:border-primary-red/50 transition-all"
-                        >
-                            <div className="aspect-video bg-black relative flex items-center justify-center group-hover:bg-gray-900 transition-colors">
-                                {/* Placeholder since we couldn't scrape video URLs */}
-                                <div className="w-16 h-16 rounded-full bg-red-600/20 flex items-center justify-center group-hover:scale-110 transition-transform cursor-pointer">
-                                    <Play className="w-8 h-8 text-primary-red fill-current" />
+                {videosData.length === 0 ? (
+                    <div className="text-center py-20">
+                        <div className="bg-gray-800 border border-gray-700 rounded-xl p-12 max-w-2xl mx-auto">
+                            <Play className="w-16 h-16 mx-auto mb-4 text-primary-red" />
+                            <h3 className="text-2xl font-bold mb-4">ভিডিও সংগ্রহ করা হচ্ছে...</h3>
+                            <p className="text-gray-400 mb-6">
+                                ভিডিও আর্কাইভ তৈরি করা হচ্ছে। অনুগ্রহ করে পরে আসুন।
+                            </p>
+                            <div className="text-sm text-gray-500">
+                                <p>📹 To collect videos from jrabd.org:</p>
+                                <p className="mt-2">Run: <code className="bg-gray-900 px-2 py-1 rounded">node collect_videos.js</code></p>
+                            </div>
+                        </div>
+                    </div>
+                ) : (
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {videosData.map((video: any, index: number) => (
+                            <div
+                                key={index}
+                                className="group bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-primary-red/50 transition-all duration-300"
+                            >
+                                {video.url && video.url.includes('youtube.com') ? (
+                                    <div className="aspect-video">
+                                        <iframe
+                                            src={video.url}
+                                            title={video.title || `Video ${index + 1}`}
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowFullScreen
+                                            className="w-full h-full"
+                                        />
+                                    </div>
+                                ) : (
+                                    <div className="aspect-video relative bg-gray-900">
+                                        <video
+                                            className="w-full h-full object-cover"
+                                            controls
+                                            preload="metadata"
+                                            onMouseEnter={(e) => e.currentTarget.play()}
+                                            onMouseLeave={(e) => {
+                                                e.currentTarget.pause();
+                                                e.currentTarget.currentTime = 0;
+                                            }}
+                                        >
+                                            <source
+                                                src={video.localPath || video.url}
+                                                type="video/mp4"
+                                            />
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                )}
+
+                                <div className="p-4">
+                                    <h3 className="font-bold text-white mb-2">
+                                        {video.title || `ভিডিও #${index + 1}`}
+                                    </h3>
+                                    {video.description && (
+                                        <p className="text-sm text-gray-400 line-clamp-2">
+                                            {video.description}
+                                        </p>
+                                    )}
                                 </div>
-                                <span className="absolute bottom-2 right-2 text-xs bg-black/50 px-2 py-1 rounded">
-                                    সংরক্ষিত
-                                </span>
                             </div>
-                            <div className="p-4">
-                                <h3 className="text-white font-medium line-clamp-2 group-hover:text-primary-red transition-colors">
-                                    {item.caption}
-                                </h3>
-                            </div>
-                        </motion.div>
-                    ))}
-                </div>
+                        ))}
+                    </div>
+                )}
             </main>
             <Footer />
         </div>
