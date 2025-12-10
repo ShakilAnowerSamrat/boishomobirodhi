@@ -57,18 +57,18 @@ export default function VideoArchivePage() {
     // Filter videos based on selected filters
     const filteredVideos = useMemo(() => {
         return videosData.filter((video) => {
-            // Segment filter (for future implementation when segment data is added)
-            // const matchesSegment = selectedSegment === "All Segments" || video.segment === selectedSegment;
+            // Segment filter
+            const matchesSegment = selectedSegment === "All Segments" || video.segment === selectedSegment;
 
             // Search filter - search in title and description
             const matchesSearch = searchQuery === "" ||
                 video.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
                 video.description?.toLowerCase().includes(searchQuery.toLowerCase());
 
-            // Date filter (for future implementation when date data is added)
-            // const matchesDate = selectedDate === "All Dates" || video.date === selectedDate;
+            // Date filter
+            const matchesDate = selectedDate === "All Dates" || video.date === selectedDate;
 
-            return matchesSearch; // && matchesSegment && matchesDate;
+            return matchesSearch && matchesSegment && matchesDate;
         });
     }, [searchQuery, selectedSegment, selectedDate]);
 
