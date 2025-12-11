@@ -30,7 +30,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="bn" className={`${notoSansBengali.variable} ${hindSiliguri.variable}`}>
+        <html lang="bn" className={`${notoSansBengali.variable} ${hindSiliguri.variable}`} suppressHydrationWarning>
             <body className="font-bengali antialiased">
                 {children}
             </body>

@@ -1,0 +1,106 @@
+[
+    {
+        "id": "c1",
+        "name": "নাহিদ ইসলাম",
+        "role": "সমন্বয়ক",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "সমাজবিজ্ঞান বিভাগ",
+        "committee": "Central"
+    },
+    {
+        "id": "c2",
+        "name": "আসিফ মাহমুদ",
+        "role": "সমন্বয়ক",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "ভাষাবিজ্ঞান বিভাগ",
+        "committee": "Central"
+    },
+    {
+        "id": "c3",
+        "name": "হাসনাত আবদুল্লাহ",
+        "role": "সমন্বয়ক (পরবর্তীতে আহ্বায়ক)",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "ইংরেজি বিভাগ",
+        "committee": "Central"
+    },
+    {
+        "id": "c4",
+        "name": "সারজিস আলম",
+        "role": "সমন্বয়ক",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "প্রাণিবিদ্যা বিভাগ",
+        "committee": "Central"
+    },
+    {
+        "id": "c5",
+        "name": "আবু বাকের মজুমদার",
+        "role": "সমন্বয়ক",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "ভূগোল বিভাগ",
+        "committee": "Central"
+    },
+    {
+        "id": "c6",
+        "name": "নুসরাত তাবাসসুম",
+        "role": "সমন্বয়ক",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "রাষ্ট্রবিজ্ঞান বিভাগ",
+        "committee": "Central"
+    },
+    {
+        "id": "c7",
+        "name": "আব্দুল হান্নান মাসউদ",
+        "role": "সমন্বয়ক (পরবর্তীতে মুখ্য সংগঠক)",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "",
+        "committee": "Central"
+    },
+    {
+        "id": "c8",
+        "name": "উমামা ফাতেমা",
+        "role": "সমন্বয়ক (পরবর্তীতে মুখপাত্র)",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "",
+        "committee": "Central"
+    },
+    {
+        "id": "c9",
+        "name": "মাহিন সরকার",
+        "role": "সমন্বয়ক",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "",
+        "committee": "Central"
+    },
+    {
+        "id": "c10",
+        "name": "রিফাত রশিদ",
+        "role": "সমন্বয়ক",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "আন্তর্জাতিক সম্পর্ক বিভাগ",
+        "committee": "Central"
+    },
+    {
+        "id": "c11",
+        "name": "আরিফ সোহেল",
+        "role": "সমন্বয়ক (পরবর্তীতে সদস্যসচিব)",
+        "institution": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়",
+        "department": "আন্তর্জাতিক সম্পর্ক বিভাগ",
+        "committee": "Central"
+    },
+    {
+        "id": "c12",
+        "name": "খান তালাত মাহমুদ রাফি",
+        "role": "সমন্বয়ক",
+        "institution": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+        "department": "নাট্যকলা বিভাগ",
+        "committee": "Regional"
+    },
+    {
+        "id": "c13",
+        "name": "আহনাফ সাঈদ খান",
+        "role": "সমন্বয়ক",
+        "institution": "ঢাকা বিশ্ববিদ্যালয়",
+        "department": "",
+        "committee": "Central"
+    }
+]

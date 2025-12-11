@@ -1,0 +1,502 @@
+[
+    {
+        "id": "1",
+        "name": "Volker Türk",
+        "role": "UN High Commissioner for Human Rights",
+        "quote": "The attacks on student protesters are particularly shocking and unacceptable. There must be impartial, prompt and exhaustive investigations into these attacks, and those responsible held to account.",
+        "date": "July 19, 2024",
+        "category": "International",
+        "source": "OHCHR Statement",
+        "sourceUrl": "https://www.ohchr.org/en/press-releases/2024/07/bangladesh-turk-urges-restraint-and-accountability-amid-violence-against"
+    },
+    {
+        "id": "2",
+        "name": "Dr. Muhammad Yunus",
+        "role": "Nobel Laureate & Chief Advisor",
+        "quote": "আমি বিশ্বনেতাদের প্রতি আহ্বান জানাই, যারা তাদের অধিকার আদায়ের আন্দোলন করছে, তাদের ওপর এই সহিংসতা বন্ধ করতে আপনারা আপনাদের ক্ষমতা অনুযায়ী সবকিছু করুন।",
+        "date": "July 2024",
+        "category": "National",
+        "source": "Press Statement",
+        "sourceUrl": "https://www.newindianexpress.com/world/2024/Jul/21/muhammad-yunus-urges-world-leaders-unn-to-stop-violence-in-bangladesh"
+    },
+    {
+        "id": "3",
+        "name": "Mir Mahfuzur Rahman Mugdho",
+        "role": "Student Activist & Martyr",
+        "quote": "পানি লাগবে, পানি? (Water, water?)",
+        "date": "July 18, 2024",
+        "category": "Martyrs & Families",
+        "source": "Viral Video / Eyewitness",
+        "sourceUrl": "https://www.tbsnews.net/bangladesh/mugdho-water-boy-who-became-symbol-humanity-911896"
+    },
+    {
+        "id": "4",
+        "name": "Monwara Begum",
+        "role": "Mother of Martyr Abu Sayed",
+        "quote": "আমি সেই বাংলাদেশ দেখার অপেক্ষায় আছি যার জন্য আমার ছেলে জীবন দিয়েছে, এমন একটি দেশ যেখানে ফ্যাসিবাদের উত্থান আর হবে না, এবং লরাই-সংঘাত বা রক্তপাত থাকবে না।",
+        "date": "July 2025 (Reflecting on 2024)",
+        "category": "Martyrs & Families",
+        "source": "The Business Standard",
+        "sourceUrl": "https://www.tbsnews.net/bangladesh/i-want-live-see-bangladesh-my-son-dreamt-abu-sayeds-mother-911916"
+    },
+    {
+        "id": "5",
+        "name": "Josep Borrell",
+        "role": "EU High Representative",
+        "quote": "There must be full accountability for the numerous instances of use of excessive and lethal force by the law enforcement authorities against protesters and others, including journalists and young children.",
+        "date": "July 30, 2024",
+        "category": "International",
+        "source": "EU Statement",
+        "sourceUrl": "https://www.tbsnews.net/bangladesh/eu-concerned-over-shoot-sight-policy-unlawful-killings-bangladesh-borrell-906561"
+    },
+    {
+        "id": "6",
+        "name": "Shaheen",
+        "role": "Rickshaw Puller",
+        "quote": "আমরা সহিংসতার মুখোমুখি হই কারণ আমরা ক্ষুধার্ত। পেটে ভাত না থাকলে মায়ের চোখের পানি দেখে বেঁচে থেকে কী লাভ?",
+        "date": "July 2024",
+        "category": "General Public",
+        "source": "Al Jazeera Report",
+        "sourceUrl": "https://www.aljazeera.com/news/2024/7/24/bangladesh-protests-rickshaw-pullers-struggle-survival"
+    },
+    {
+        "id": "7",
+        "name": "Protesting Students",
+        "role": "Collective Chant",
+        "quote": "তুই কে? আমি কে? রাজাকার, রাজাকার! কে বলেছে? কে বলেছে? স্বৈরাচার, স্বৈরাচার!",
+        "date": "July 14, 2024",
+        "category": "General Public",
+        "source": "Student Protests",
+        "sourceUrl": "https://scroll.in/article/1070776/why-bangladeshi-students-are-chanting-i-am-a-razakar"
+    },
+    {
+        "id": "8",
+        "name": "Ali Riaz",
+        "role": "Political Scientist",
+        "quote": "সরকার 'গণতন্ত্রের মুখোশ' বজায় রাখার চেষ্টা করে ব্যর্থ হয়েছে এবং শক্তির আশ্রয় নিয়েছে। শাসনব্যবস্থার ভিত্তি এবং 'অপরাজেয়র আভা' উল্লেখযোগ্যভাবে নড়বড়ে হয়ে গেছে।",
+        "date": "July 2024",
+        "category": "Intellectuals",
+        "source": "Analysis",
+        "sourceUrl": "https://illinoisstate.edu/news/2024/07/distinguished-professor-ali-riaz-shares-expertise-on-bangladesh-protests/"
+    },
+    {
+        "id": "9",
+        "name": "Ayman Sadiq",
+        "role": "Educator",
+        "quote": "রক্তাক্ত ঢাকা। আমার প্রানপ্রিয় শিক্ষার্থীদের রক্তে রঞ্জিত ঢাকা।",
+        "date": "July 16, 2024",
+        "category": "Civil Society",
+        "source": "Facebook Statement",
+        "sourceUrl": "https://www.facebook.com/aymansadiq10/posts/pfbid02tT6J2..."
+    },
+    {
+        "id": "10",
+        "name": "U.S. State Department",
+        "role": "Matthew Miller, Spokesperson",
+        "quote": "The freedom of expression and peaceful assembly are essential building blocks of any thriving democracy, and we condemn any violence against peaceful protesters.",
+        "date": "July 15, 2024",
+        "category": "International",
+        "source": "Press Briefing",
+        "sourceUrl": "https://www.dhakatribune.com/bangladesh/foreign-affairs/352220/us-condemns-violence-against-quota-protesters-in"
+    },
+    {
+        "id": "11",
+        "name": "Aziz Miah",
+        "role": "Rickshaw Puller",
+        "quote": "আমাদের ভাইদের রাস্তায় মেরে ফেলা হয়েছে। আমরা আর কতদিন চুপ থাকব? এখন রাস্তায় নামার সময় এসেছে।",
+        "date": "August 2024",
+        "category": "General Public",
+        "source": "The Daily Star",
+        "sourceUrl": "https://www.thedailystar.net/news/bangladesh/news/rickshaw-pullers-join-protests-shaheed-minar-3670186"
+    },
+    {
+        "id": "12",
+        "name": "Shahabuddin",
+        "role": "Rickshaw Puller",
+        "quote": "না খেয়ে মরার চেয়ে ভয়ের কী দাম আছে?",
+        "date": "July 2024",
+        "category": "General Public",
+        "source": "Al Jazeera",
+        "sourceUrl": "https://www.aljazeera.com/news/2024/7/24/bangladesh-protests-rickshaw-pullers-struggle-survival"
+    },
+    {
+        "id": "13",
+        "name": "Nahid Islam",
+        "role": "Coordinator, Students Against Discrimination",
+        "quote": "৪৮ ঘণ্টার মধ্যে যদি ইন্টারনেট চালু না হয় এবং গুম হওয়া সমন্বয়কদের মুক্তি না দেওয়া হয়, তবে আমরা সর্বাত্মক অসহযোগ আন্দোলনের ডাক দেব।",
+        "date": "July 28, 2024",
+        "category": "Student Coordinators",
+        "source": "Press Briefing",
+        "sourceUrl": "https://www.thedailystar.net/"
+    },
+    {
+        "id": "14",
+        "name": "Asif Mahmud",
+        "role": "Coordinator, Students Against Discrimination",
+        "quote": "আমরা কোনো কারফিউ মানি না। ছাত্র-জনতা রাজপথে নেমে তাদের দাবি আদায় করে ছাড়বে।",
+        "date": "July 19, 2024",
+        "category": "Student Coordinators",
+        "source": "Facebook Video",
+        "sourceUrl": "https://www.facebook.com/asifmahmud/"
+    },
+    {
+        "id": "15",
+        "name": "Abu Sayed",
+        "role": "Student Activist & Martyr",
+        "quote": "(Gesturing with open arms against police guns) বুক পেতে দিলাম, গুলি কর।",
+        "date": "July 16, 2024",
+        "category": "Martyrs & Families",
+        "source": "Viral Video Incident",
+        "sourceUrl": "https://www.prothomalo.com/bangladesh/district/abu-sayed-killing"
+    },
+    {
+        "id": "16",
+        "name": "Shahidul Islam Bhuiyan",
+        "role": "Father of Martyr Farhan Faiyaz",
+        "quote": "সন্তানের লাশের চেয়ে ভারী এই পৃথিবীতে কোনো বোঝা নেই। আমি বিচার চাই আমার ছেলের হত্যার।",
+        "date": "July 18, 2024",
+        "category": "Martyrs & Families",
+        "source": "Dhaka Tribune",
+        "sourceUrl": "https://www.dhakatribune.com/"
+    },
+    {
+        "id": "17",
+        "name": "Sheikh Hasina",
+        "role": "Former Prime Minister",
+        "quote": "মুক্তিযোদ্ধাদের নাতিপুতিরা কোটা পাবে না তো কি রাজাকারের নাতিপুতিরা পাবে?",
+        "date": "July 14, 2024",
+        "category": "Political Figures (Awami League)",
+        "source": "Press Conference",
+        "sourceUrl": "https://www.bbc.com/bengali/articles/c1e30q93z34o"
+    },
+    {
+        "id": "18",
+        "name": "Obaidul Quader",
+        "role": "General Secretary, Awami League",
+        "quote": "যারা কোটা সংস্কারের নামে আন্দোলন করছে, তাদের জবাব দেওয়ার জন্য ছাত্রলীগই যথেষ্ট।",
+        "date": "July 15, 2024",
+        "category": "Political Figures (Awami League)",
+        "source": "Press Briefing",
+        "sourceUrl": "https://www.prothomalo.com/"
+    },
+    {
+        "id": "19",
+        "name": "Salimullah Khan",
+        "role": "Writer & Intellectual",
+        "quote": "সরকারকে নিঃশর্ত ক্ষমা চেয়ে পদত্যাগ করতে হবে। হত্যাকাণ্ডকে বৈধতা দেওয়ার চেষ্টা করবেন না।",
+        "date": "July 31, 2024",
+        "category": "Intellectuals",
+        "source": "Public Rally",
+        "sourceUrl": "https://shokalshondha.com/"
+    },
+    {
+        "id": "20",
+        "name": "Dr. Iftekharuzzaman",
+        "role": "Executive Director, TIB",
+        "quote": "কোটা আন্দোলন দমনে বলপ্রয়োগের কারণে দেশে তীব্র শাসনতান্ত্রিক ঘাটতি দেখা দিয়েছে।",
+        "date": "July 25, 2024",
+        "category": "Civil Society",
+        "source": "TIB Statement",
+        "sourceUrl": "https://ti-bangladesh.org/"
+    },
+    {
+        "id": "21",
+        "name": "Badiul Alam Majumdar",
+        "role": "Secretary, SHUJAN",
+        "quote": "শিক্ষার্থীদের ন্যায্য দাবি মেনে নিলে সংঘাত এড়ানো যেত। এখনকার পরিস্থিতি সরকারের একগুঁয়েমির ফল।",
+        "date": "July 2024",
+        "category": "Civil Society",
+        "source": "Interview",
+        "sourceUrl": "https://badiulmajumdar.com/"
+    },
+    {
+        "id": "22",
+        "name": "Mirza Fakhrul Islam Alamgir",
+        "role": "Secretary General, BNP",
+        "quote": "সরকার শিক্ষার্থীদের ওপর যে নির্যাতন চালাচ্ছে তা মধ্যযুগীয় বর্বরতাকে হার মানিয়েছে।",
+        "date": "July 27, 2024",
+        "category": "Political Figures (BNP)",
+        "source": "Press Statement",
+        "sourceUrl": "https://bnpbd.org/"
+    },
+    {
+        "id": "23",
+        "name": "Sajeeb Wazed Joy",
+        "role": "Son of Sheikh Hasina",
+        "quote": "জুলাই দাঙ্গা ছিল বাংলাদেশের ইতিহাসে অন্যতম কালো অধ্যায়।",
+        "date": "July 2025 (Reflecting on 2024)",
+        "category": "Political Figures (Awami League)",
+        "source": "Facebook Post",
+        "sourceUrl": "https://bdtoday.net/"
+    },
+    {
+        "id": "24",
+        "name": "Taslima Nasrin",
+        "role": "Author",
+        "quote": "হাসিনাকে পদত্যাগ করতে হতো। তিনি ইসলামিস্টদের বাড়তে দিয়েছেন, আর এখন সেই ফলাফল ভোগ করছেন।",
+        "date": "August 2024",
+        "category": "Intellectuals",
+        "source": "Social Media",
+        "sourceUrl": "https://economictimes.indiatimes.com/"
+    },
+    {
+        "id": "25",
+        "name": "General Waker-Uz-Zaman",
+        "role": "Chief of Army Staff",
+        "quote": "আমি জনগণের জানমালের দায়িত্ব নিচ্ছি। আপনারা শান্ত হোন, দেশে শান্তি ফিরে আসবে।",
+        "date": "August 5, 2024",
+        "category": "National",
+        "source": "Address to the Nation",
+        "sourceUrl": "https://www.youtube.com/"
+    },
+    {
+        "id": "26",
+        "name": "Sarjis Alam",
+        "role": "Coordinator, Students Against Discrimination",
+        "quote": "আমরা আমাদের ভাইদের রক্ত বৃথা যেতে দেব না। এক দফা, এক দাবি—হাসিনার পদত্যাগ।",
+        "date": "July 2024",
+        "category": "Student Coordinators",
+        "source": "Rally Speech",
+        "sourceUrl": "https://www.facebook.com/"
+    },
+    {
+        "id": "27",
+        "name": "Hasnat Abdullah",
+        "role": "Coordinator, Students Against Discrimination",
+        "quote": "পুলিশ দিয়ে আন্দোলন বন্ধ করা যাবে না। আমাদের পিঠ দেয়ালে ঠেকে গেছে।",
+        "date": "July 2024",
+        "category": "Student Coordinators",
+        "source": "Press Conference",
+        "sourceUrl": "https://www.youtube.com/"
+    },
+    {
+        "id": "28",
+        "name": "Syeda Rizwana Hasan",
+        "role": "Environmental Lawyer",
+        "quote": "ছাত্রদের ওপর গুলি চালানো কোনো সভ্য সমাজের কাজ হতে পারে না। এর বিচার হতেই হবে।",
+        "date": "August 2024",
+        "category": "Civil Society",
+        "source": "Interview",
+        "sourceUrl": "https://bdreports24.com/"
+    },
+    {
+        "id": "29",
+        "name": "Farhad Mazhar",
+        "role": "Writer & Thinker",
+        "quote": "এটা শুধু কোটা আন্দোলন নয়, এটা জনগণের মুক্তির সংগ্রাম।",
+        "date": "July 2024",
+        "category": "Intellectuals",
+        "source": "Discussion",
+        "sourceUrl": "https://www.youtube.com/"
+    },
+    {
+        "id": "30",
+        "name": "Mostofa Sarwar Farooki",
+        "role": "Filmmaker",
+        "quote": "আমাদের সন্তানদের ওপর গুলি। এই দৃশ্য দেখার জন্য আমরা প্রস্তুত ছিলাম না।",
+        "date": "July 2024",
+        "category": "Intellectuals",
+        "source": "Facebook Post",
+        "sourceUrl": "https://www.facebook.com/mostofasarwar.farooki"
+    },
+    {
+        "id": "31",
+        "name": "Collective Chants",
+        "role": "Protesters",
+        "quote": "আমার ভাই কবরে, খুনি কেন বাইরে?",
+        "date": "July 2024",
+        "category": "General Public",
+        "source": "Street Protests",
+        "sourceUrl": "https://en.wikipedia.org/wiki/2024_Bangladesh_quota_reform_movement"
+    },
+    {
+        "id": "32",
+        "name": "Collective Chants",
+        "role": "Protesters",
+        "quote": "দিয়েছি তো রক্ত, আরও দেব রক্ত।",
+        "date": "July 2024",
+        "category": "General Public",
+        "source": "Street Protests",
+        "sourceUrl": "https://en.wikipedia.org/wiki/2024_Bangladesh_quota_reform_movement"
+    },
+    {
+        "id": "33",
+        "name": "Collective Chants",
+        "role": "Protesters",
+        "quote": "কোটা না মেধা? মেধা মেধা।",
+        "date": "July 2024",
+        "category": "General Public",
+        "source": "Street Protests",
+        "sourceUrl": "https://en.wikipedia.org/wiki/2024_Bangladesh_quota_reform_movement"
+    },
+    {
+        "id": "34",
+        "name": "Mahfuz Alam",
+        "role": "Student Activist",
+        "quote": "এই অভ্যুত্থান পরিকল্পিত ছিল। আমরা জানতাম আমাদের কী করতে হবে।",
+        "date": "August 2024",
+        "category": "Student Coordinators",
+        "source": "Facebook Post",
+        "sourceUrl": "https://bddigest.com/"
+    },
+    {
+        "id": "35",
+        "name": "Umama Fatema",
+        "role": "Student Activist",
+        "quote": "নারীরাই এই আন্দোলনের মেরুদণ্ড ছিল। টিয়ারশেল আর গুলির সামনে তারা ভয় পায়নি।",
+        "date": "July 14, 2024",
+        "category": "Student Coordinators",
+        "source": "Speech",
+        "sourceUrl": "https://bssnews.net/"
+    },
+    {
+        "id": "36",
+        "name": "Rifat Rashid",
+        "role": "Student Activist",
+        "quote": "শহীদদের রক্তের সাথে বেইমানি করা যাবে না।",
+        "date": "July 30, 2024",
+        "category": "Student Coordinators",
+        "source": "Video Message",
+        "sourceUrl": "https://www.youtube.com/"
+    },
+    {
+        "id": "37",
+        "name": "Abdul Kader",
+        "role": "Student Coordinator",
+        "quote": "আমরা লাল কাপড় চোখে-মুখে বেঁধে প্রতিবাদ জানিয়েছি, কারণ আমাদের ভাইদের রক্ত ঝরছে।",
+        "date": "July 6, 2024",
+        "category": "Student Coordinators",
+        "source": "Facebook Campaign",
+        "sourceUrl": "https://channel24bd.tv/"
+    },
+    {
+        "id": "38",
+        "name": "Mamunul Haque",
+        "role": "Secretary General, Khelafat Majlish",
+        "quote": "এই সরকারের পতন অনিবার্য। জনগণ জেগে উঠেছে।",
+        "date": "July 2024",
+        "category": "Religious Leaders",
+        "source": "Party Rally",
+        "sourceUrl": "https://www.youtube.com/"
+    },
+    {
+        "id": "39",
+        "name": "Zunaid Ahmed Palak",
+        "role": "Former State Minister for ICT",
+        "quote": "গুজব রুখতেই ইন্টারনেট বন্ধ রাখা হয়েছে।",
+        "date": "July 18, 2024",
+        "category": "Political Figures (Awami League)",
+        "source": "Press Briefing",
+        "sourceUrl": "https://www.bbc.com/bengali"
+    },
+    {
+        "id": "40",
+        "name": "DB Harun",
+        "role": "Former DB Chief",
+        "quote": "সমন্বয়করা নিরাপত্তাহীনতায় ভুগছিল, তাই তাদের ডিবি কার্যালয়ে নিয়ে আসা হয়েছে। এখানে তারা ভালো আছে, ভাত খাচ্ছে।",
+        "date": "July 27, 2024",
+        "category": "Government Officials",
+        "source": "Press Briefing",
+        "sourceUrl": "https://www.prothomalo.com/"
+    },
+    {
+        "id": "41",
+        "name": "Mohammad Mohiuddin",
+        "role": "Father of Martyr Shaikh Ashabul Yamin",
+        "quote": "আমার ছেলে পানি খাওয়াতে গিয়ে শহীদ হয়নি, সে বুক পেতে দিয়েছিল অধিকার আদায়ের জন্য।",
+        "date": "July 2024",
+        "category": "Martyrs & Families",
+        "source": "Interview",
+        "sourceUrl": "https://fact-watch.org/"
+    },
+    {
+        "id": "42",
+        "name": "Anjan Dutt",
+        "role": "Singer & Musician",
+        "quote": "বাংলাদেশে যা ঘটছে তা অত্যন্ত দুঃখজনক। ছাত্রদের ওপর গুলি চালানো মেনে নেওয়া যায় না।",
+        "date": "July 2024",
+        "category": "International (Cultural)",
+        "source": "Social Media",
+        "sourceUrl": "https://www.facebook.com/"
+    },
+    {
+        "id": "43",
+        "name": "Kabir Suman",
+        "role": "Musician",
+        "quote": "আমি বাংলাদেশের ছাত্রদের পাশে আছি। তাদের এই লড়াই ন্যায়সঙ্গত।",
+        "date": "July 2024",
+        "category": "International (Cultural)",
+        "source": "Facebook Video",
+        "sourceUrl": "https://www.facebook.com/"
+    },
+    {
+        "id": "44",
+        "name": "Ten Minute School",
+        "role": "Educational Platform",
+        "quote": "আমরা অনির্দিষ্টকালের জন্য আমাদের সকল লাইভ ক্লাস রদ করলাম। ছাত্রদের পাশে আছি।",
+        "date": "July 16, 2024",
+        "category": "Civil Society",
+        "source": "Facebook Page",
+        "sourceUrl": "https://www.facebook.com/10minuteschool"
+    },
+    {
+        "id": "45",
+        "name": "Snigdho",
+        "role": "Brother of Mugdho",
+        "quote": "১৮ই জুলাইয়ের পর আমি হাসতে ভুলে গেছি। আমার ভাইয়েরা যে বাংলাদেশের স্বপ্ন দেখেছিল, তা বাস্তবায়ন করাই এখন আমাদের কাজ।",
+        "date": "August 2024",
+        "category": "Martyrs & Families",
+        "source": "Interview",
+        "sourceUrl": "https://tbsnews.net/"
+    },
+    {
+        "id": "46",
+        "name": "Anu Muhammad",
+        "role": "Professor",
+        "quote": "সবাই একটি মুক্ত বাংলাদেশের জন্য লড়াই করছে। বর্তমান সরকারকে পদত্যাগ করতে হবে।",
+        "date": "August 2, 2024",
+        "category": "Intellectuals",
+        "source": "Rally Speech",
+        "sourceUrl": "https://channelionline.com/"
+    },
+    {
+        "id": "47",
+        "name": "Debapriya Bhattacharya",
+        "role": "Economist",
+        "quote": "রাজনৈতিক শূন্যতা পূরণে অন্তর্বর্তীকালীন সরকার গঠন অপরিহার্য ছিল।",
+        "date": "August 2024",
+        "category": "Intellectuals",
+        "source": "Roundtable Discussion",
+        "sourceUrl": "https://dhakatribune.com/"
+    },
+    {
+        "id": "48",
+        "name": "Mashiur Rahman Khan Richard",
+        "role": "Student Activist",
+        "quote": "জুলাই জাগরণের আকাঙ্ক্ষা বাস্তবায়ন করতে আমাদের ঐক্যবদ্ধ থাকতে হবে।",
+        "date": "August 2024",
+        "category": "Student Coordinators",
+        "source": "Interview",
+        "sourceUrl": "https://bssnews.net/"
+    },
+    {
+        "id": "49",
+        "name": "Mahin Sarkar",
+        "role": "Student Activist",
+        "quote": "জুলাই আমাদের একতা আর সংহতির শক্তি দেখিয়েছে।",
+        "date": "August 2024",
+        "category": "Student Coordinators",
+        "source": "Interview",
+        "sourceUrl": "https://bssnews.net/"
+    },
+    {
+        "id": "50",
+        "name": "General Public (Chant)",
+        "role": "Protesters",
+        "quote": "এক দফা এক দাবি, শেখ হাসিনা কবে যাবি?",
+        "date": "August 2024",
+        "category": "General Public",
+        "source": "Mass Protest",
+        "sourceUrl": "https://en.wikipedia.org/wiki/2024_Bangladesh_quota_reform_movement"
+    }
+]

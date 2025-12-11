@@ -1,0 +1,162 @@
+[
+    {
+        "id": "doc-1",
+        "type": "Documentary",
+        "title": "36 Days in July: Uprising in Bangladesh | Ep. 1 – I Am Razakar",
+        "outlet": "Al Jazeera Investigates",
+        "description": "Episode 1 of the investigative series, exposing the background of the student protests.",
+        "url": "https://www.youtube.com/watch?v=ryNVRXRYZ8E",
+        "date": "August 2024",
+        "youtubeId": "ryNVRXRYZ8E"
+    },
+    {
+        "id": "doc-2",
+        "type": "Documentary",
+        "title": "The Battle for Bangladesh: Fall of Sheikh Hasina",
+        "outlet": "BBC World Service",
+        "description": "A documentary investigating the popular uprising that led to the downfall of Sheikh Hasina.",
+        "url": "https://www.youtube.com/watch?v=gYXaPTDatis",
+        "date": "July 2024",
+        "youtubeId": "gYXaPTDatis"
+    },
+    {
+        "id": "doc-3",
+        "type": "Documentary",
+        "title": "Bangladesh's Gen Z Revolution",
+        "outlet": "Deutsche Welle",
+        "description": "How student protests toppled Sheikh Hasina. A documentary on the Gen Z led revolution.",
+        "url": "https://www.youtube.com/watch?v=f6r2VrieyRU",
+        "date": "August 2024",
+        "youtubeId": "f6r2VrieyRU"
+    },
+    {
+        "id": "vid-1",
+        "type": "Video",
+        "title": "Bangladesh is Burning! | What's Happening?",
+        "outlet": "Dhruv Rathee",
+        "description": "A detailed analysis of the quota reform protests and government crackdown.",
+        "url": "https://www.youtube.com/watch?v=DgIFVfTmd3Q",
+        "date": "July 25, 2024",
+        "youtubeId": "DgIFVfTmd3Q"
+    },
+    {
+        "id": "vid-4",
+        "type": "Video",
+        "title": "Bangladesh On Boil | What Is Dictator Sheikh Hasina Afraid Of",
+        "outlet": "The Deshbhakt",
+        "description": "Analysis of the critical moments leading to the fall of the government.",
+        "url": "https://www.youtube.com/watch?v=YK1pIuPsl9I",
+        "date": "August 2024",
+        "youtubeId": "YK1pIuPsl9I"
+    },
+    {
+        "id": "vid-5",
+        "type": "Video",
+        "title": "Last 48 Hours Of Dictator Sheikh Hasina",
+        "outlet": "The Deshbhakt",
+        "description": "Focusing on the immediate aftermath of Sheikh Hasina's departure.",
+        "url": "https://www.youtube.com/watch?v=0_I7sFnN8Nt",
+        "date": "August 5, 2024",
+        "youtubeId": "0_I7sFnN8Nt"
+    },
+    {
+        "id": "vid-9",
+        "type": "Video",
+        "title": "আন্দোলনকারীদের বাসায় ফিরতে পিনাকির বার্তা",
+        "outlet": "Pinaki Bhattacharya",
+        "description": "Pinaki Bhattacharya's message to protesters.",
+        "url": "https://www.youtube.com/watch?v=6YiiLr1Hjez",
+        "date": "August 2024",
+        "youtubeId": "6YiiLr1Hjez"
+    },
+    {
+        "id": "doc-11",
+        "type": "Documentary",
+        "title": "All the Prime Minister's Men",
+        "outlet": "Al Jazeera Investigates",
+        "description": "The explosive documentary exposing high-level corruption linking the PM's family to criminal gangs.",
+        "url": "https://www.youtube.com/watch?v=a6vO7e3pCcc",
+        "date": "2021",
+        "youtubeId": "a6vO7e3pCcc"
+    },
+    {
+        "id": "vid-2",
+        "type": "Video",
+        "title": "Is Bangladesh better than India now?",
+        "outlet": "Dhruv Rathee",
+        "description": "A comparative analysis of Bangladesh and India's progress.",
+        "url": "https://www.youtube.com/watch?v=5FZTm9hIO9M",
+        "date": "October 2020",
+        "youtubeId": "5FZTm9hIO9M"
+    },
+    {
+        "id": "report-3",
+        "type": "Report",
+        "title": "Bangladesh PM resigns and flees country",
+        "outlet": "BBC News",
+        "description": "Breaking news report on the day of the government's collapse.",
+        "url": "https://www.youtube.com/watch?v=9kWeExyuuwW",
+        "date": "August 5, 2024",
+        "youtubeId": "9kWeExyuuwW"
+    },
+    {
+        "id": "doc-6",
+        "type": "Documentary",
+        "title": "Is Bangladesh's interim government up for the task?",
+        "outlet": "DW News",
+        "description": "Analysis of the challenges facing the Yunus-led interim government.",
+        "url": "https://www.youtube.com/watch?v=SBhk-oceeq5",
+        "date": "September 2024",
+        "youtubeId": "SBhk-oceeq5"
+    },
+    {
+        "id": "vid-21",
+        "type": "Video",
+        "title": "Bangladesh Unrest",
+        "outlet": "The Hindu",
+        "description": "Reporting on the unrest.",
+        "url": "https://www.youtube.com/watch?v=ZDzx8y8NskF",
+        "date": "August 2024",
+        "youtubeId": "ZDzx8y8NskF"
+    },
+    {
+        "id": "vid-22",
+        "type": "Video",
+        "title": "Protest outside Bangladesh Embassy",
+        "outlet": "The Hindu",
+        "description": "Reporting on international reactions and protests.",
+        "url": "https://www.youtube.com/watch?v=c64s7OgmYSk",
+        "date": "August 2024",
+        "youtubeId": "c64s7OgmYSk"
+    },
+    {
+        "id": "vid-26",
+        "type": "Video",
+        "title": "US Stance on Bangladesh",
+        "outlet": "Voice of America",
+        "description": "US Dept of State briefings highlights.",
+        "url": "https://www.youtube.com/watch?v=stu901vwx23",
+        "date": "July 2024",
+        "youtubeId": "stu901vwx23"
+    },
+    {
+        "id": "vid-23",
+        "type": "Video",
+        "title": "Sheikh Hasina's Fall Analysis",
+        "outlet": "Observer Research Foundation",
+        "description": "Geopolitical analysis of the fall.",
+        "url": "https://www.youtube.com/watch?v=jkl012mno34",
+        "date": "August 2024",
+        "youtubeId": "jkl012mno34"
+    },
+    {
+        "id": "report-10",
+        "type": "Report",
+        "title": "Statue of Mujib Toppled",
+        "outlet": "Independent TV",
+        "description": "Symbolic moments of the fall.",
+        "url": "https://www.youtube.com/watch?v=mno567pqr78",
+        "date": "August 5, 2024",
+        "youtubeId": "mno567pqr78"
+    }
+]

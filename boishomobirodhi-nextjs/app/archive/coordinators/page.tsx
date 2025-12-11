@@ -1,73 +1,67 @@
-"use client";
-
 import { Navbar } from "@/components/navigation/Navbar";
 import { Footer } from "@/components/navigation/Footer";
-import { motion } from "framer-motion";
-import { Facebook, Globe, Users } from "lucide-react";
+import coordinatorsData from "@/data/coordinators.json";
+import { User, GraduationCap, Building2 } from "lucide-react";
+
+export const metadata = {
+    title: "সমন্বয়ক তালিকা | বৈষম্যবিরোধী ছাত্র আন্দোলন",
+    description: "আন্দোলনের নেতৃত্বদানকারী চাবি সমন্বয়কবৃন্দ",
+};
 
 export default function CoordinatorsPage() {
-    const centralCoordinators = [
-        { name: "নাহিদ ইসলাম", role: "সমন্বয়ক", institution: "ঢাকা বিশ্ববিদ্যালয়" },
-        { name: "আসিফ মাহমুদ", role: "সমন্বয়ক", institution: "ঢাকা বিশ্ববিদ্যালয়" },
-        { name: "আবু বাকের মজুমদার", role: "সমন্বয়ক", institution: "ঢাকা বিশ্ববিদ্যালয়" },
-        { name: "সারজিস আলম", role: "সমন্বয়ক", institution: "ঢাকা বিশ্ববিদ্যালয়" },
-        { name: "হাসনাত আব্দুল্লাহ", role: "সমন্বয়ক", institution: "ঢাকা বিশ্ববিদ্যালয়" },
-        { name: "নুসরাত তাবাসসুম", role: "সমন্বয়ক", institution: "ঢাকা বিশ্ববিদ্যালয়" },
-        { name: "উমামা ফাতেমা", role: "সমন্বয়ক", institution: "ঢাকা বিশ্ববিদ্যালয়" },
-        { name: "আহনাফ সাঈদ", role: "সমন্বয়ক", institution: "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়" },
-        { name: "আসিফ মাহতাব", role: "সমন্বয়ক", institution: "ব্র্যাক বিশ্ববিদ্যালয়" }
-    ];
-
     return (
-        <div className="min-h-screen bg-gray-900 text-white font-bengali">
+        <>
             <Navbar />
-            <main className="pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-                <div className="text-center mb-16">
-                    <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                        সমন্বয়ক ও <span className="text-primary-green">নেতৃত্ব</span>
-                    </h1>
-                    <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                        বৈষম্যবিরোধী ছাত্র আন্দোলনের নেতৃত্বে ছিলেন যারা
-                    </p>
-                </div>
+            <main className="min-h-screen bg-gray-900 pt-24 pb-12">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12">
+                        <h1 className="text-4xl font-bold text-white mb-4">
+                            সমন্বয়কবৃন্দ
+                        </h1>
+                        <p className="text-gray-400 max-w-2xl mx-auto">
+                            যাদের সাহসী নেতৃত্বে সংঘটিত হয়েছে এই ঐতিহাসিক গণঅভ্যুত্থান।
+                        </p>
+                    </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {centralCoordinators.map((person, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="bg-white/5 backdrop-blur-sm border border-gray-800 rounded-xl overflow-hidden hover:border-primary-green/50 transition-all group"
-                        >
-                            <div className="h-24 bg-gradient-to-r from-gray-800 to-gray-900 relative">
-                                <div className="absolute -bottom-8 left-6">
-                                    <div className="w-16 h-16 rounded-full bg-gray-700 border-4 border-gray-900 flex items-center justify-center text-2xl font-bold text-gray-400">
-                                        {person.name.charAt(0)}
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="pt-10 p-6">
-                                <h3 className="text-xl font-bold text-white mb-1">{person.name}</h3>
-                                <p className="text-primary-green font-medium text-sm mb-4">{person.role}</p>
-
-                                <div className="flex items-center text-gray-400 text-sm mb-2">
-                                    <Users className="w-4 h-4 mr-2" />
-                                    {person.institution}
-                                </div>
-                            </div>
-                        </motion.div>
-                    ))}
-                </div>
-
-                <div className="mt-20 p-8 rounded-2xl bg-gradient-to-br from-gray-800 to-black border border-gray-700 text-center">
-                    <h3 className="text-2xl font-bold text-white mb-4">স্বতঃস্ফূর্ত নেতৃত্ব</h3>
-                    <p className="text-gray-400 max-w-2xl mx-auto leading-relaxed">
-                        এই আন্দোলনের প্রকৃত নেতা ছিল সাধারণ ছাত্রজনতা। প্রতিটি বিশ্ববিদ্যালয়, কলেজ, স্কুল এবং পাড়া-মহল্লায় যারা নেতৃত্ব দিয়েছেন, ঝুঁকি নিয়েছেন - তারা সবাই এই বিজয়ের অংশীদার।
-                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        {coordinatorsData.map((coordinator) => (
+                            <CoordinatorCard key={coordinator.id} coordinator={coordinator} />
+                        ))}
+                    </div>
                 </div>
             </main>
             <Footer />
+        </>
+    );
+}
+
+function CoordinatorCard({ coordinator }: { coordinator: any }) {
+    return (
+        <div className="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-primary-red/50 transition-all text-center group">
+            <div className="w-20 h-20 bg-gray-700 rounded-full mx-auto mb-4 flex items-center justify-center text-gray-400 group-hover:bg-gray-700 group-hover:text-primary-red transition-all">
+                <User className="w-10 h-10" />
+            </div>
+
+            <h3 className="text-xl font-bold text-white mb-1">
+                {coordinator.name}
+            </h3>
+
+            <div className="inline-block px-3 py-1 bg-primary-red/10 text-primary-red text-xs rounded-full mb-4">
+                {coordinator.role}
+            </div>
+
+            <div className="space-y-2 text-sm text-gray-400 border-t border-gray-700 pt-4">
+                <div className="flex items-center justify-center gap-2">
+                    <Building2 className="w-4 h-4" />
+                    <span>{coordinator.institution}</span>
+                </div>
+                {coordinator.department && (
+                    <div className="flex items-center justify-center gap-2">
+                        <GraduationCap className="w-4 h-4" />
+                        <span>{coordinator.department}</span>
+                    </div>
+                )}
+            </div>
         </div>
     );
 }
